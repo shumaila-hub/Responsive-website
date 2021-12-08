@@ -1,0 +1,126 @@
+@media screen and (max-width:833px) {
+    .see{
+        flex-direction: column;
+        /* width: 100%; */
+        width: auto;
+        height: auto;
+        padding: auto;
+
+    }
+    .se2{
+text-align: center;
+    color: white;
+   width: auto;
+    float: none;
+    padding: 0px 0px;
+    margin: 0px 10px;
+    height: auto;
+   
+    }
+    .see2 h3 {
+width: auto;
+        font-size: 10px;
+        padding: 0px;
+        margin: 0;
+        height: auto;
+    }
+    .se2 p{
+        padding-right: 0px;
+    }
+    #se2btn1 {
+        margin: 10px 0px;
+    }
+    #se2link{
+        padding: 7px 9px;
+    }
+
+    .se3{
+        width: 300px;
+margin: auto;
+
+    }
+    .se3img{
+       margin: auto;
+        border-radius: 100px;
+        width: 100%;
+        object-fit: cover;
+        margin-left: -30px;
+        /* width: 300px; */
+        /* height: 200px; */
+        /* margin-top: 40px; */
+    
+    }
+}
+
+
+@media screen and (max-width:467px) {
+    .sec1{
+        flex-direction: column;
+        padding: 12px 10px;
+    }
+}
+
+
+@media screen and (max-width:1020px) {
+    .container{
+        width: 100%;
+    }
+}
+@media screen and (max-width:772px) {
+    .container{
+       display: flex;
+       flex-direction: column;
+    }
+}
+@media screen and (max-width:1100px) {
+    .third{
+        width: 90%;
+    }
+    
+}
+@media screen and (max-width:833px) {
+    .third{
+        flex-direction: column;
+        margin-top: 720px;
+        height: auto;
+        width: auto;
+
+    }
+    .third1{
+    /* text-align: center; */
+    color: white;
+    width: 100%;
+    padding: 0px 0px;
+    margin: 0px 0px;
+    /* margin-left: 20px; */
+    
+    }
+    .third1 h3 {
+
+        font-size: 25px;
+        padding: 0px;
+        margin: 0;
+    }
+    .third1 p{
+        padding-right: 0px;
+    }
+    #third1btn1 {
+        margin: 10px 0px;
+    }
+    #third1link{
+        padding: 7px 9px;
+    }
+
+    .third2{
+        width: 100%;
+        padding: 0px 0px;
+        margin: 0px 18px;
+      
+    }
+    .third2img{
+
+        width: 100px;
+        height: auto;
+    
+    }
+}

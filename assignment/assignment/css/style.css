@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+body{
+    background-color: rgb(209, 206, 209);
+    font-family: 'Lato', sans-serif;
+    
+}
+.sec1{
+    display: flex;
+    flex-direction: row;
+    background-color: yellow;
+    padding: 5px 10px 5px 10px ;
+    width: auto;
+}
+.sec01{
+float: left;
+font-weight: 800;
+font-size: 20px;
+
+}
+.sec02{
+    /* justify-content: center;
+    align-items: center; */
+    margin: auto;
+
+}
+.sec03{
+    float: right;
+}
+.sec02p{  
+    text-decoration: underline; 
+    display: inline;  
+
+
+}
+
+.sec03btn{
+    font-size: 17px;
+    font-weight: 700;
+background-color: black;
+color: white;
+padding: 4px 6px;
+overflow: hidden;
+}
+.logo-image{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+}
+.res{
+    /* margin: auto; */
+margin-right: 100px;
+}
+#num1{
+color: blue;
+}
+#num2{
+    color: blue;
+    }
+#num2i{
+    margin-right: 5px;
+}
+
+
+.see{
+    display: flex;
+
+    flex-direction: row;
+    background-color: rgb(47, 119, 235);
+    /* padding: 20px 50px 20px 50px ; */
+}
+
+.se2{
+    float: left;
+    /* border: 4px solid green; */
+padding: 50px 60px;
+color: white;
+width: 60%;
+
+}
+.se2 h3{
+    font-size: 50px ;
+    font-weight: 700;
+    
+}
+.se2 p{
+    font-size: 10px;
+    padding-right: 150px;
+    margin-top: 40px;
+}
+.se3{
+    width: 40%;
+float: right;
+/* border: 4px solid rgb(202, 26, 26); */
+padding: 20px 20px;
+position: relative;
+right: -30px;
+}
+.se3img{
+    border-radius: 100px;
+    width: 300px;
+    height: 200px;
+    margin-top: 40px;
+
+}
+#se2link{
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 7px 25px;
+    text-decoration: none;
+    color: white;
+  
+}
+#se2btn1{
+ border: 2px solid white;
+ border-radius: 20px;
+ padding: 5px 25px;
+ color: blue;
+ margin-left: 20px;
+}
+.se2btna{
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 15px;
+}
+#hello{
+    text-align: center;
+    font-size: 50px;
+    color: blue;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 1100px;
+    height: 300px;
+
+    margin: 50px auto ;
+    z-index: 10000;
+}
+.items{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    height: 350px;
+    background-color: white
+}
+.items01{
+    flex-direction: row;
+}
+.items02{
+    flex-direction: row;
+
+}
+.item{
+    border: 7px solid rgba(248, 249, 250, 0.59);
+    width: 145px;
+    color: blue;
+    padding: 0pc 9px;
+    height: 135px;
+    margin: auto;
+    border-radius: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 10px;
+    text-align: center;
+    font-family: 500;
+}
+.item img{
+    justify-content: center;
+    margin-top: 25px;
+}
+.item h1{
+    font-weight: 1000;
+    font-size: 35px;
+    margin-top: 20px;
+}
+.itemdh3{
+    color: blue;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 800;
+}
+.itemsp p{
+    font-size: 13px;
+    text-align: center;
+}
+.third{
+
+    background-color: white;
+    margin: auto;
+    width: 1100px;
+    height: 400px;
+    display: flex;
+    /* margin: 50px auto ; */
+    box-shadow: 5px 10px 8px 10px #888888;
+
+}
+.third1{
+    float: left;
+    /* border: 4px solid green; */
+padding: 20px 20px;
+color: white;
+width: 60%;
+
+}
+.third1 h3{
+    font-size: 50px ;
+    font-weight: 700;
+    color: blue;
+}
+.third1 p{
+    font-size: 10px;
+    padding-right: 150px;
+    margin-top: 40px;
+    color: black;
+}
+.third2{
+    /* border: 3px solid green; */
+    width: 40%;
+float: right;
+/* padding: 10px 20px; */
+position: relative;
+right: 16px; 
+}
+.third2 img{
+object-fit: cover;
+    width: 100%;
+    height: 100%;
+    /* margin-top: 40px; */
+
+}
+#third1link{
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 7px 25px;
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+  
+}
+#third1btn1{
+ border: 2px solid blue;
+ border-radius: 20px;
+ padding: 5px 25px;
+ color: blue;
+ margin-left: 20px;
+}
+.third1btna{
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 15px;
+}
+.number{
+    color: blue;
+}
+.foot{
+    height: 20px;
+    background-color: blue;
+}
